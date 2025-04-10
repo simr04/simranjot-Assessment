@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';   // <-- import the CSS
-
+import './App.css';   
 function App() {
   return (
     <div className="App">
-      <h1>Simranjot Kaur Brar</h1>
+      <h1>Jenkins CI Practice</h1>
     </div>
   );
 }

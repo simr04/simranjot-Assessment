@@ -3,6 +3,7 @@ import App from './App';
 
 test('renders Simran on the page', () => {
   render(<App />);
-  const nameEl = screen.getByText(/Simranjot Kaur Brar/i);
+  const nameEl = screen.getByText(/Simran/i);
   expect(nameEl).toBeInTheDocument();
 });
+
